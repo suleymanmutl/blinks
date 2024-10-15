@@ -1,0 +1,32 @@
+{
+  "name": "blinkss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dialectlabs/blinks": "^0.13.1",
+    "@solana/actions": "^1.6.5",
+    "@solana/web3.js": "^1.95.3",
+    "cors": "^2.8.5",
+    "firebase": "^10.14.1",
+    "hono": "^4.6.4",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "twitter-lite": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "typescript": "^5"
+  }
+}
